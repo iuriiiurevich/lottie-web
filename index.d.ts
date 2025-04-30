@@ -190,6 +190,7 @@ export type LottiePlayer = {
     setLocationHref(href: string): void;
     setIDPrefix(prefix: string): void;
     updateDocumentData(path: (string|number)[], documentData: TextDocumentData, index: number): void;
+    getRegisteredAnimations(): AnimationItem[];
 };
 
 declare const Lottie: LottiePlayer;
